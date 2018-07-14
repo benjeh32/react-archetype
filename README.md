@@ -1,6 +1,10 @@
 # React Archetype
 A basic React application configured with Webpack, Babel, Redux and more.
 
+## Status
+### Continuous Integration
+[![CircleCI](https://circleci.com/gh/benjeh32/react-archetype.svg?style=svg)](https://circleci.com/gh/benjeh32/react-archetype)
+
 ## Development
 ### Prerequisites
 - [Node.js](https://nodejs.org/)
