@@ -1,25 +1,41 @@
 # React Archetype
+
 A basic React application configured with Webpack, Babel, Redux and more.
 
-## Status
-### Continuous Integration
+## Development
+
+### Status
+
 [![CircleCI](https://circleci.com/gh/benjeh32/react-archetype.svg?style=svg)](https://circleci.com/gh/benjeh32/react-archetype)
 
-## Development
 ### Prerequisites
+
 - [Node.js](https://nodejs.org/)
 
-### Building
-From a terminal:
+### Installing dependencies
+
 ```console
-$ npm install
-$ npm run build
+npm install
 ```
 
-### Running
-After building, host `build/` on a server and visit it in your browser.
+### Building the bundle
 
-Alternatively, to start a live-updating development server:
+#### Production mode
+
+To build the bundle one time:
+
 ```console
-$ npm run start
+npm run build
 ```
+
+#### Development mode
+
+To start the live-updating development build that will rebuild whenever a change is made to the HTML, JavaScript or CSS:
+
+```console
+npm run start
+```
+
+## License
+
+Licensed under the [MIT License](https://github.com/benjeh32/privacy-choices/blob/master/LICENSE).
