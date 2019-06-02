@@ -17,7 +17,7 @@ $ npm run build
 ```
 
 ### Running
-After building, host `dist/` on a server and visit it in your browser.
+After building, host `build/` on a server and visit it in your browser.
 
 Alternatively, to start a live-updating development server:
 ```console
