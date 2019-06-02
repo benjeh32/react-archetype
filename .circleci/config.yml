@@ -29,7 +29,7 @@ jobs:
       - run: npm run build
 
       # Zip artifacts
-      - run: zip -r react-archetype.zip dist
+      - run: zip -r react-archetype.zip build
 
       # Store artifacts
       - store_artifacts:

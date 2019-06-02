@@ -1,6 +1,6 @@
 {
   "name": "react-archetype",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A basic React application configured with Webpack, Babel, Redux and more.",
   "keywords": [
     "react",
@@ -22,7 +22,7 @@
     "test": "echo \"No tests found\" && exit 0",
     "start": "webpack-dev-server --open --mode development --history-api-fallback",
     "build": "npm test && webpack --mode production",
-    "clean": "rimraf dist node_modules",
+    "clean": "rimraf build node_modules",
     "reinstall": "npm run clean && npm install",
     "rebuild": "npm run reinstall && npm run build"
   },
